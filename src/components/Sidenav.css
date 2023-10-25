@@ -1,0 +1,75 @@
+
+
+.SideNav {
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    width: 274px;
+    height: 100%; 
+    background-color: #21201E; 
+    box-shadow: 2px 0px 90px 0px rgba(97, 0, 194, 0.40);
+    color: #fff;
+  }
+
+
+  .sidenav_buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    background: 0;
+    border: 0;
+    gap: 12px;
+
+  }
+
+  .section_one {
+     margin-top: 58px;
+  }
+
+  .section_two {
+    margin-top: 100px;
+  }
+
+  .section_three {
+    margin-top: 100px ;
+    margin-bottom: 10px;
+  }
+
+.sidenav_logo {
+    display: inline-flex;
+    align-items: center;
+    margin-top: 44px;
+    margin-left: 55px;
+    margin-right: 103px;
+    height: 32px;
+    gap: 5px;
+}
+
+.logos {
+    width: 32px;
+    height: 32px;
+}
+
+.heading {
+    font-weight: 700;
+    font-size: 22px;
+    color: white;
+
+}
+
+
+.logos-one {
+    margin-left: 40px;
+    align-items: left; 
+}
+
+
+.fonts {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+
+
