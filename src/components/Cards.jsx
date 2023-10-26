@@ -2,16 +2,9 @@
 
 
 import React from 'react';
-import './Cards.css'; // Create a CSS file for styling
-// import favourite from "../assets/favourites.svg"
+import './Cards.css'; 
 
 
-
-// {
-//     <div className='trend'>                   
-//     <p>Trending</p>
-//     </div>
-// }
 
 function Cards({ title, description, imageUrl }) {
   return (
