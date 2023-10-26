@@ -14,8 +14,27 @@ body {
     line-height: normal;
 }
 
+.favorite-icon {
+    position: absolute;
+    top: 10px; 
+    right: 10px; 
+    z-index: 1; 
+  }
+
+  .favorite-icon img {
+    display: inline-flex;
+    padding: 8.889px;
+    align-items: flex-start;
+    gap: 5.926px;
+    border-radius: 8.296px;
+    border: 0.593px solid #FFF;
+    background: linear-gradient(99deg, #FFF 3.36%, rgba(255, 255, 255, 0.00) 238.16%);
+    backdrop-filter: blur(5.925926208496094px);
+    width: 14.222px;
+    height: 14.222px;
+  }
+
    .card {
-    background-image: ;
     padding: 0;
     width: 255px;
     height: 301px;
@@ -25,6 +44,7 @@ body {
     background: white 50% ;
     overflow: hidden;
     margin-right: 13px;
+    position: relative;
   }
 
   .card-container{
