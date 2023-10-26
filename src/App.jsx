@@ -35,7 +35,10 @@ return (
    
    
             <div>
-           <div className="card-container">
+              <div style={{marginRight:"800px",marginLeft:"32px"}}>
+            <h4 className='trending' style={{marginTop:"300px",marginBottom:"10px"}}>Trending</h4>
+            </div>
+            <div className="card-container">
          {cardsData.map((card, index) => (
            <Cards key={index} title={card.title} description={card.description} imageUrl={card.imageUrl} />
          ))}
