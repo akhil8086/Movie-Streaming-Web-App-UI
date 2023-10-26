@@ -54,6 +54,11 @@
     line-height: 18px; 
   }
 
+  .btns:hover {
+       cursor: pointer;
+       text-decoration: underline;
+  }
+
   .buttons {
     display: inline-flex;
     margin-left: 44px;
@@ -80,13 +85,7 @@ margin-bottom: 0;
     display: flex;
     flex-direction: column;
   }
- 
-  /* .main_two img {
-    border-radius: 1px;
-    border: 1px solid #FFF;
-    background: linear-gradient(99deg, #FFF 3.36%, rgba(255, 255, 255, 0.00) 238.16%);
-    backdrop-filter: blur(10px);
-  } */
+
 
   .main_two img {
     padding: 15px;
@@ -115,6 +114,7 @@ margin-bottom: 0;
     border-radius: 14px;
     background: #6100C2;
   }
+
 
   .main_two p {
 color: #FFF;

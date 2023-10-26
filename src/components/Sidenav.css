@@ -23,6 +23,11 @@
 
   }
 
+  .sidenav_buttons:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+
   .section_one {
      margin-top: 58px;
   }
