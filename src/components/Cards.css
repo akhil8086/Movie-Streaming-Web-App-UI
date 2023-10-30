@@ -1,7 +1,5 @@
 
-body {
-    background: conic-gradient(from -2deg at 28.99% 107.28%, #37312A 175.51443457603455deg, #191817 342.4887156486511deg, #191817 360deg);
-}
+
 
 
 
@@ -12,7 +10,10 @@ body {
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+    margin-top: 300px;
+    margin-bottom: 10px;
 }
+
 
 .favorite-icon {
     position: absolute;
@@ -52,7 +53,6 @@ body {
     flex-wrap: wrap;
     margin-left: 200px;
     flex-wrap: wrap;
-    /* margin-top: 300px; */
    
   }
   

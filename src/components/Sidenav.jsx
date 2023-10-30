@@ -23,7 +23,7 @@ function Sidenav() {
         
         <button className="sidenav_buttons">
         <img src={homeSvg} alt='Home'  className="logos-one"/>
-        <span className="fonts">Home</span>
+        <span className="fonts_main">Home</span>
         </button>
        
 

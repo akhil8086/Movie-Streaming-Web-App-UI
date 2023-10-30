@@ -34,9 +34,9 @@ return (
     <Header />
    
    
-            <div>
-              <div style={{marginRight:"800px",marginLeft:"32px"}}>
-            <h4 className='trending' style={{marginTop:"300px",marginBottom:"10px"}}>Trending</h4>
+            <div >
+              <div className='main-container'>
+            <h4 className='trending'>Trending</h4>
             </div>
             <div className="card-container">
          {cardsData.map((card, index) => (

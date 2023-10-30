@@ -9,7 +9,7 @@
     height: 300px;
     margin-left: 273px;
     background-color: black;
-    background-image: url('C:\Users\akhiljith r\OneDrive\Desktop\vite-project\src\assets\Rectangle 201.png'); 
+    background-image: url(https://s3-alpha-sig.figma.com/img/05b3/f62d/1ed524068bf7052043a0e38fd2ff1d0a?Expires=1699833600&Signature=GjLsKypb~oJpPZ5NDZGwLbPQjT0elQr9dkFhaC0SWh-0zNmYbhLnqY6gp5ZH9Tik1HrKHbGinaFKqCQOSi7Jqn9rMPl54ibN87aBqL8DA-7Pz1b5HtOGgc-r4gi5sPaovXo5vYKgkZ6kc3YoEPqOZwYLUyIPw3aWHL-H-dhzR6Mfb3zE5QqHkDl3wcBPjEf-9CompHGPYpwxsUQC37LVCv7rhX0RYydCEwr7i2rpfHXeMgs81zm09BzflnEgk~Mmp7RFNK2dhKlKlDkx~V0VDlTtQkYLTbd3Znl3lD~z57a3gHwO2pMtzLC04AAMrFJKEgl5~dUHBtto115Xmi72Yg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4); 
     background-size: cover; 
     background-position: center;
     z-index: 2;
@@ -79,7 +79,6 @@ margin-bottom: 0;
 
   .main_two {
     margin-left: 50px;
-    /* margin-top: 80px; */
     margin-right: 967px;
     align-items: flex-start;
     display: flex;
@@ -117,11 +116,18 @@ margin-bottom: 0;
 
 
   .main_two p {
-color: #FFF;
-font-family: Poppins;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
+   color: #FFF;
+   font-family: Poppins;
+   font-size: 14px;
+   font-style: normal;
+   font-weight: 400;
+  }
+
+  .main_three {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 10px;
+
   }
 
  

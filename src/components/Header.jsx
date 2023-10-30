@@ -26,7 +26,7 @@ function Header() {
     <div className='main_two'>
         <h1>Insider</h1>
         <p>2022 | Comedy horror | 1 Season</p>
-        <div style={{display:"inline-flex", alignItems:"flex-start",gap:"10px"}}> 
+        <div className="main_three"> 
         <button> Watch Now </button>
         <img src={heartSvg} alt='icon' />
         </div>
