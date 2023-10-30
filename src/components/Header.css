@@ -61,7 +61,7 @@
 
   .buttons {
     display: inline-flex;
-    margin-left: 44px;
+    margin-left: 35px;
     margin-top: 47px;
    
   } 
@@ -121,6 +121,8 @@ margin-bottom: 0;
    font-size: 14px;
    font-style: normal;
    font-weight: 400;
+   margin-left: 0;
+
   }
 
   .main_three {
