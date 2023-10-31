@@ -56,7 +56,7 @@
 
   .btns:hover {
        cursor: pointer;
-       text-decoration: underline;
+       font-weight: bolder;
   }
 
   .buttons {
